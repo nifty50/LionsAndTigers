@@ -43,7 +43,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="551" width="321" height="21"/>
+                                    <rect key="frame" x="20" y="490" width="321" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="breed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgy-qC-je2">
@@ -52,7 +52,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="580" width="321" height="21"/>
+                                    <rect key="frame" x="20" y="519" width="321" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jD3-no-SLS">
@@ -61,7 +61,16 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="522" width="321" height="21"/>
+                                    <rect key="frame" x="20" y="461" width="321" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEB-MX-pkQ">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="548" width="321" height="53"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -73,6 +82,7 @@
                                 <exclude reference="8NN-wW-XaX"/>
                                 <exclude reference="Xgy-qC-je2"/>
                                 <exclude reference="jD3-no-SLS"/>
+                                <exclude reference="gEB-MX-pkQ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -82,6 +92,7 @@
                                 <include reference="8NN-wW-XaX"/>
                                 <include reference="Xgy-qC-je2"/>
                                 <include reference="jD3-no-SLS"/>
+                                <include reference="gEB-MX-pkQ"/>
                             </mask>
                         </variation>
                     </view>
@@ -90,6 +101,7 @@
                         <outlet property="breedLabel" destination="Xgy-qC-je2" id="m6S-v9-zTK"/>
                         <outlet property="myImageView" destination="iVP-1V-jY5" id="YT4-4f-OZh"/>
                         <outlet property="nameLabel" destination="jD3-no-SLS" id="Iwg-7r-zFo"/>
+                        <outlet property="randomFactLabel" destination="gEB-MX-pkQ" id="oPd-ux-Cek"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
